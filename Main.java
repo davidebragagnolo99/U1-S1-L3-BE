@@ -8,5 +8,6 @@ public class Main {
         System.out.println("Cliente dal " + cliente.data);
         System.out.println("Ha acquistato un " + articolo.descrizione + " " + "id: " + articolo.codice + " " + "prezzo: " + articolo.prezzo + " €");
         System.out.println("Riepilogo del Carrello: -Totale Carrello: " + carrello.costoArticoli + " €" + " " + "Articoli: " + carrello.elenco);
+        System.out.println("Acquistato da" + " " + carrello.cliente);
     }
 }
